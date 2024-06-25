@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodigy Infotech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><img src="logo.jpeg" alt="Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <header id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Welcome to Our Prodigy Infotech</h1>
+                    <p>Your trusted partner in digital solutions.</p>
+                    <a href="#" class="btn">Explore Services</a>
+                </div>
+              
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>"Prodigy Infotech is a leading provider of IT solutions, specializing in cutting-edge technologies and innovative software development. We offer enriching internship opportunities aimed at nurturing talent and fostering growth in the dynamic IT industry. Join us to gain valuable experience and contribute to impactful projects that shape the future of technology.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Internship</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="/images/web-developer.png" alt="Service 1">
+                    </div>
+                    <h3>Web developement</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="/images/data-science.png" alt="Service 2">
+                    </div>
+                    <h3>Data science</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="/images/machine.png" alt="Service 3">
+                    </div>
+                    <h3>Machine Learning</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="/images/app-development.png" alt="Service 4">
+                    </div>
+                    <h3>Andriod development</h3>
+                </div>
+            </div><div class="services-grid">
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="/images/software.jpg" alt="Service 5">
+                    </div>
+                    <h3>software development</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="/images/hack.png" alt="Service 6">
+                    </div>
+                    <h3>Cyber Security</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="/images/browser-settings.png" alt="Service 7">
+                    </div>
+                    <h3>Full Stack Web Dev</h3>
+                </div>
+                <div class="service">
+                    <div class="service-icon">
+                        <img src="/images/creative.png" alt="Service 8">
+                    </div>
+                    <h3>Generative Ai</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-image">
+                    <img src="https://img.freepik.com/free-vector/design-process-concept-landing-page_23-2150174167.jpg?size=626&ext=jpg&ga=GA1.1.1927763562.1714212821&semt=ais_user" alt="Contact Us">
+                </div>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm" action="#" method="post">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name:</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="services">Select Internship:</label>
+                                <select id="services" name="services">
+                                    <option value="web">Web Development</option>
+                                    <option value="Data Science">Data Science</option>
+                                    <option value="Machine ">Machine learning</option>
+                                    <option value="Android ">Android Developement</option>
+                                    <option value="Software ">Software Developement</option>
+                                    <option value="full ">full Stach Web dev</option>
+                                    <option value="Generative">Generative Ai </option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>Made by Anju Yadav  ||  For more <a href="">Github</a> </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
